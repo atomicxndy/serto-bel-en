@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "serto-bel-hr": {
+    "serto-bel-en": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -19,7 +19,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": {
-              "base": "dist/serto-bel-hr"
+              "base": "dist/serto-bel-en"
             },
             "index": "src/index.html",
             "polyfills": [
@@ -88,10 +88,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "serto-bel-hr:build:production"
+              "buildTarget": "serto-bel-en:build:production"
             },
             "development": {
-              "buildTarget": "serto-bel-hr:build:development"
+              "buildTarget": "serto-bel-en:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -99,7 +99,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "serto-bel-hr:build"
+            "buildTarget": "serto-bel-en:build"
           }
         },
         "test": {

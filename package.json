@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:serto-bel-hr": "node dist/serto-bel-hr/server/server.mjs"
+    "serve:ssr:serto-bel-hr": "node dist/serto-bel-en/server/server.mjs"
   },
   "private": true,
   "dependencies": {
